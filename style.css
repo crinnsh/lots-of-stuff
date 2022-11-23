@@ -29,7 +29,7 @@ body {
 /* HEADER */
 
 header h1 {
-	color: white;
+	color: black;
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 36px;
@@ -47,22 +47,29 @@ header h1 {
 	transition: background 0.2s linear;
 }
 
+					/* Dark adjustments */
 body.dark {
 	background-color: #17181d;
+	color: white;
+}
+
+body.dark header h1 {
+	color: white;
 }
 
 body.dark .grid > div {
 	background-color: #333541;
-	color: white;
 }
 
 body.dark .calcBtn {
 	color: white;
 }
 
-body.dark  .operator {
+body.dark .operator {
 	color: #337cac;
 }
+
+					/* Dark adjustments end */
 
 .checkbox {
 	opacity: 0;
