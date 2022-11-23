@@ -26,6 +26,15 @@ body {
     background: gray;
 }
 
+/* HEADER */
+
+header h1 {
+	color: white;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 36px;
+}
+
 /* FIRST DIV */
 
 .divOne {
@@ -39,7 +48,20 @@ body {
 }
 
 body.dark {
-	background: #17181d;
+	background-color: #17181d;
+}
+
+body.dark .grid > div {
+	background-color: #333541;
+	color: white;
+}
+
+body.dark .calcBtn {
+	color: white;
+}
+
+body.dark  .operator {
+	color: #337cac;
 }
 
 .checkbox {
